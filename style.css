@@ -1,0 +1,97 @@
+.minefield {
+    border-top: 10px solid gray;
+    border-left: 10px solid gray;
+    border-right: 10px solid rgb(176, 181, 187);
+    border-bottom: 10px solid rgb(176, 181, 187);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    height: 50vw;
+    margin: auto;
+    width: 50vw;
+}
+
+.row {
+    display: inline-flex;
+    flex: 1;
+    flex-direction: row;
+    border-bottom: 0.4em dotted;
+    background-color: #b9b9b9;
+    box-sizing: border-box;
+}
+
+.cell {
+    background-color:#b9b9b9;
+    flex: 1;
+    display: flex;
+    border-right: 0.4em dotted;;
+    outline-style: 0.4em dotted;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.cell img {
+    width: 60%;
+}
+
+#one img {
+    display: initial;
+    background: inherit;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+#two img {
+    display: initial;
+    background: inherit;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+#three img {
+    display: initial;
+    background: inherit;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+#ten img {
+    display: initial;
+    background: inherit;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+#close {
+    height: 105%;
+    width: 105%;  
+}
+
+#close:hover {
+    opacity: 0;
+}
+
+#blue {
+    display: initial;
+    background: url(Image/1.gif);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#green {
+    display: initial;
+    background: url(Image/2.gif);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#red {
+    display: initial;
+    background: url(Image/3.gif);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
